@@ -1,0 +1,164 @@
+
+
+body{
+background-color:#E4FFE0;
+
+}
+
+
+.judul {
+	position:absolute;
+	top:5%;
+	left:30%;
+	height:70px;
+	width:140px;
+	border:1px solid #aeaeae;
+	border-radius:50%;
+	background-color:cyan;
+}
+
+.judul h2{
+	display:flex;
+	justify-content:center;
+	color:#607D8B;
+}
+
+
+.qism1 {
+	position:absolute;
+	top:24%;
+	right:2%;
+	height:60px;
+	width:100px;
+	border:1px solid #aeaeae;
+	border-radius:40%;
+	background-color:cyan;
+}
+
+.qism1 h4 {
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	color:#607D8B;
+}
+
+.qism2 {
+	position:absolute;
+	top:25%;
+	right:35%;
+	height:60px;
+	width:100px;
+	border:1px solid #aeaeae;
+	border-radius:40%;
+	background-color:cyan;
+}
+
+.qism2 h4 {
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	color:#607D8B;
+}
+
+.qism3 {
+	position:absolute;
+	top:24%;
+	right:70%;
+	height:60px;
+	width:100px;
+	border:1px solid #aeaeae;
+	border-radius:40%;
+	background-color:cyan;
+}
+
+.qism3 h4 {
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	color:#607D8B;
+}
+
+.isim {
+position:absolute;
+height:215px;
+width:47%;
+right:1%;
+top:38%;
+border:1px solid #aeaeae;
+border-radius:5px;
+background-color:#FFA07A;
+}
+
+#isim{
+	position:relative;
+	text-align:right;
+	margin-top:;
+	padding-right:8px;
+	font-size:20px;
+}
+
+#isim h4,p {
+	margin-bottom:-10px;
+	color: #34465D;
+}
+
+.fiil {
+position:absolute;
+height:215px;
+width:47%;
+left:1%;
+top:38%;
+border:1px solid #aeaeae;
+border-radius:5px;
+background-color:#FFA07A;
+
+}
+
+
+.fiil h4,p {
+	text-align:right;
+	font-size:20px;
+	margin-bottom:-10px;
+	padding-right:8px;
+	color:#34465D;
+}
+
+.huruf{
+	position:absolute;
+	top:73%;
+	height:110px;
+	left:1%;
+	right:1%;
+	border: 1px solid #aeaeae;
+	border-radius:7px;
+	background-color:#ffa07a;
+}
+
+.huruf h4,p{
+text-align:right;
+font-size:20px;
+margin-bottom:-10px;
+padding-right:8px;
+color:#34456d;
+}
+
+.huruf h4{
+ margin-top:10px;
+}
+
+.footer{
+	position:absolute;
+	bottom:0px;
+	left:0%;
+	right:0%;
+	height:30px;
+	background-color:#2F4F4F;
+	
+}
+
+.footer p {
+	font-size:0.8em;
+	text-align:center;
+	margin-top:7px;
+	color:#DCDCDC;
+}
