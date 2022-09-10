@@ -1,2 +1,2 @@
 # fadlidege.github.io
-opload
+[latihan.html]
