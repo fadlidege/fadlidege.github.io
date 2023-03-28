@@ -1,0 +1,118 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+@font-face {
+  
+   font-family: "Aref Ruqaa";
+   src:url("ArefRuqaa-Regular.ttf") ;
+}
+
+/*
+body{
+   font-family: 'Poppins', sans-serif;
+}*/
+
+body{
+   width: 100vw;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+   margin-top: 30px;
+   margin-bottom: 16px;
+   height: 95vh;
+   width: 95%;
+   background-color: #FFF8DC;
+   padding: 5px;
+   border-radius: 4px;
+   box-shadow :-2px -2px 4px #5F9EA0,
+               2px 2px 4px #5F9EA0;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: scroll;
+}
+
+.add{
+   padding-top: 20px;
+}
+
+
+.content{
+   background-color: transparent;
+   margin-top: 10px;
+}
+
+
+.und {
+   font-weight: bold;
+}
+
+.content h2{
+   text-align: center;
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+
+
+.content ul,ol   {
+   list-style-position: inside;
+}
+
+.content .arab {
+   direction: rtl;
+   text-align: right;
+}
+
+.content .arab li{
+   font-size: 16px;
+   line-height: 2;
+}
+.head{
+  height: 70px;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.profil{
+   width: 200px;
+   margin:10px;
+   line-height: 1.8;
+}
+
+.profil p{
+   font-family: sans-serif;
+   
+}
+
+.profil p span{
+   margin-left: 30px;
+   
+}
+
+
+.foot{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.foot p {
+   line-height: 25px;
+}
+
+/*p{
+   font-weight: 500;
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+}*/
