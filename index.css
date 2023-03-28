@@ -14,7 +14,9 @@ body{
   border: 1px solid black;
   font-size: 2em;
 }
-
+.tengah{
+ text-align: center;
+}
 .flex-container-column{
   display: flex;
   flex-direction: column;
